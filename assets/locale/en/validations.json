@@ -1,0 +1,11 @@
+{
+  "required" : "This field is required",
+  "email_validator" : "Invalid email",
+  "email_min_length" : "Email is at least 15 characters long",
+  "email_max_validator" : "Email no more than 30 characters",
+  "password_length" : "Password consists of 4 to 16 letters or numbers",
+  "mobile_length" : "Mobile length is 10 number",
+  "address_length" : "Address contains 5 to 30 characters",
+  "theme" : "Theme",
+  "language" : "Language"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370076350025",
+    "project_id": "tecshop-470ac",
+    "storage_bucket": "tecshop-470ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370076350025:android:87e6fe644fecf714cef198",
+        "android_client_info": {
+          "package_name": "com.example.tec_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370076350025-oo00nc92rhl17gh3klhrhjn9pukc6oj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0n-GAJqmBIEz34pAsEIn-U78ltgEJWag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370076350025-oo00nc92rhl17gh3klhrhjn9pukc6oj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
