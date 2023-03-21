@@ -1,11 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tec_shop/app/memory/app_memory.dart';
-import 'package:tec_shop/app/themes/dark/tecshop_dark_theme.dart';
-import 'package:tec_shop/app/themes/light/tecshop_light_theme.dart';
 import 'package:tec_shop/core/locale/app_translations.dart';
+import 'package:tec_shop/core/memory/app_memory.dart';
 import 'package:tec_shop/core/themes/core_theme.dart';
+import 'package:tec_shop/core/themes/dark/tecshop_dark_theme.dart';
+import 'package:tec_shop/core/themes/light/tecshop_light_theme.dart';
 import 'package:tec_shop/core/util/app_connectivity.dart';
 
 class AppConfigration{

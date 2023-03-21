@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tec_shop/core/config/app_configration.dart';
-import 'package:tec_shop/tec_shop.dart';
+import 'package:tec_shop/main/tec_shop.dart';
 
 void main() async{
   await AppConfigration.init();

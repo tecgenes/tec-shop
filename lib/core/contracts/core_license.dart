@@ -6,4 +6,8 @@ abstract class CoreLicense {
   bool canViewSvgAssetIcon() {
     return true;
   }
+
+  bool canViewSnackBar(){
+    return true;
+  }
 }
