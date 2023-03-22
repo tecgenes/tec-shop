@@ -7,5 +7,8 @@
   "mobile_length" : "Mobile length is 10 number",
   "address_length" : "Address contains 5 to 30 characters",
   "theme" : "Theme",
-  "language" : "Language"
+  "language" : "Language",
+  "offer" : "Offer",
+  "new" : "New",
+  "edit" : "Edit"
 }
