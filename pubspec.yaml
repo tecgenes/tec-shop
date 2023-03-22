@@ -46,3 +46,4 @@ flutter:
     - assets/themes/light/
     - assets/themes/dark/
     - assets/icons/
+    - assets/icons/bottombar/

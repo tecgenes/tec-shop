@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tec_shop/core/themes/style/appbar_theme_style.dart';
+import 'package:tec_shop/core/themes/style/bottom_bar_theme_style.dart';
 import 'package:tec_shop/core/themes/style/elevated_button_theme_style.dart';
 import 'package:tec_shop/core/themes/style/input_decoration_theme_style.dart';
 
@@ -70,8 +71,14 @@ abstract class CoreTheme{
       primaryColor: primaryColor,
       appBarTheme: AppBarThemeStyle.appBarStyle(color: primaryColor),
       textTheme: GoogleFonts.cairoTextTheme().apply(bodyColor: textPrimaryColor ),
+      badgeTheme:  BadgeThemeData(
+        backgroundColor:  primaryColor,
+        textStyle: GoogleFonts.cairo().copyWith(fontSize: 8.5, fontWeight: FontWeight.bold),
+
+      ),
       elevatedButtonTheme: ElevatedButtonThemeStyle.elevatedButtonStyle(primaryColor,secondaryColor),
       inputDecorationTheme: InputDecorationThemeStyle.inputTheme(primaryColor),
+      bottomNavigationBarTheme:BottomBarThemeStyle.bottomBarStyle(),
     );
   }
 }

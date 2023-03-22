@@ -61,7 +61,10 @@ class LandingScreen extends CoreScreen<AppLandingController>{
               ],
             ),
         ),
-        bottomNavigationBar: const BottomNavigationBarComponent(),
+        bottomNavigationBar:  SizedBox(
+          height: Get.height * 0.09,
+            child: BottomNavigationBarComponent(),
+        ),
       ),
     );
   }
