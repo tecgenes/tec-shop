@@ -2,14 +2,14 @@
   "info" : {},
   "colors" : {
     "primary" : {
-      "main" : "#F806CC",
-      "shade1" : "#570A57",
-      "shade2" : "#A91079"
+      "main" : "#734CC9",
+      "shade1" : "#",
+      "shade2" : "#"
     },
     "secondary" : {
-      "main" : "#5C527F",
-      "shade1" : "#261C2C",
-      "shade2" : "#3E2C41"
+      "main" : "#",
+      "shade1" : "#",
+      "shade2" : "#"
     },
     "info" : {
       "main" : "#5db5f8",

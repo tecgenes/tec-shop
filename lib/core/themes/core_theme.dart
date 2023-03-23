@@ -69,7 +69,9 @@ abstract class CoreTheme{
   ThemeData buildTheme(BuildContext context){
     return themeData.copyWith(
       primaryColor: primaryColor,
-      appBarTheme: AppBarThemeStyle.appBarStyle(color: primaryColor),
+      appBarTheme: AppBarThemeStyle.appBarStyle(
+          color: Colors.transparent,
+      ),
       textTheme: GoogleFonts.cairoTextTheme().apply(bodyColor: textPrimaryColor ),
       badgeTheme:  BadgeThemeData(
         backgroundColor:  primaryColor,
@@ -77,8 +79,8 @@ abstract class CoreTheme{
 
       ),
       elevatedButtonTheme: ElevatedButtonThemeStyle.elevatedButtonStyle(primaryColor,secondaryColor),
-      inputDecorationTheme: InputDecorationThemeStyle.inputTheme(primaryColor),
       bottomNavigationBarTheme:BottomBarThemeStyle.bottomBarStyle(),
+
     );
   }
 }

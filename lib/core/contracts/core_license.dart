@@ -10,4 +10,8 @@ abstract class CoreLicense {
   bool canViewSnackBar(){
     return true;
   }
+
+  bool canViewSearchField(){
+    return true;
+  }
 }

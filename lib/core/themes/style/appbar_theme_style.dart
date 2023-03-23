@@ -6,19 +6,13 @@ class AppBarThemeStyle{
   static AppBarTheme appBarStyle({required Color color}){
     return AppBarTheme(
         backgroundColor: color,
-        centerTitle: true,
+        elevation: 0.0,
         titleTextStyle: GoogleFonts.cairo(
             color: color,
             fontWeight: FontWeight.w600,
-            fontSize: Get.width * 0.05
+            fontSize: Get.width * 0.02
         ),
-        actionsIconTheme: IconThemeData(
-          color: color,
-        ),
-        elevation: 0.0,
-        iconTheme: IconThemeData(
-          color: color,
-        )
+
     );
   }
 }
