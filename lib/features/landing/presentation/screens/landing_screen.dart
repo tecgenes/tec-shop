@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:tec_shop/core/router/app_router.dart';
 import 'package:tec_shop/core/router/nested_router.dart';
@@ -7,6 +8,7 @@ import 'package:tec_shop/features/account/presentation/getx/pages/account_page.d
 import 'package:tec_shop/features/browse/presentation/getx/pages/browse_page.dart';
 import 'package:tec_shop/features/cart/presentation/getx/pages/cart_page.dart';
 import 'package:tec_shop/features/home/presentation/getx/pages/home_page.dart';
+import 'package:tec_shop/features/landing/presentation/components/app_search_component.dart';
 import 'package:tec_shop/features/landing/presentation/components/bottom_navigation_bar_component.dart';
 import 'package:tec_shop/features/landing/presentation/getx/controllers/app_landing_controller.dart';
 
@@ -17,6 +19,7 @@ class LandingScreen extends CoreScreen<AppLandingController>{
   Widget mobileDevice(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        appBar: const AppSearchComponent(),
         body: Obx(
             ()=> IndexedStack(
               index: controller.tabIndex.value,
@@ -70,3 +73,4 @@ class LandingScreen extends CoreScreen<AppLandingController>{
   }
 
 }
+
