@@ -21,7 +21,7 @@ class AppSearchComponent extends CoreComponent<AppLandingController> implements 
   @override
   bool get license => licenseCategory.canViewSearchField();
 
-  const AppSearchComponent({
+  AppSearchComponent({
     super.key,
   });
 
