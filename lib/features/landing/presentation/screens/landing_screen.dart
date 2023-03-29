@@ -19,7 +19,7 @@ class LandingScreen extends CoreScreen<AppLandingController>{
   Widget mobileDevice(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: const AppSearchComponent(),
+        appBar: AppSearchComponent(),
         body: Obx(
             ()=> IndexedStack(
               index: controller.tabIndex.value,

@@ -31,6 +31,8 @@ dependencies:
   restart_app: ^1.1.2
   dartz: ^0.10.1
   equatable: ^2.0.5
+  cached_network_image: ^3.2.3
+  responsive_grid_list: ^1.3.1
 
 dev_dependencies:
   flutter_test:
@@ -47,3 +49,5 @@ flutter:
     - assets/themes/dark/
     - assets/icons/
     - assets/icons/bottombar/
+    - assets/images/
+    - assets/images/grades/
